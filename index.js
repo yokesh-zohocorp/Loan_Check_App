@@ -79,31 +79,6 @@ function displayBasicDetails(data) {
 }
 
 function processLoanHistory(loanHistory) {
-    //   var loanHistoryContainer = document.getElementById('loanHistory');
-    //   loanHistory.forEach(function(loan, index) {
-    //     var loanDiv = document.createElement('div');
-    //     loanDiv.classList.add('loan');
-
-    //     var title = document.createElement('h3');
-    //     title.classList.add('loan-title');
-    //     title.textContent = 'Loan ' + (index + 1);
-    //     loanDiv.appendChild(title);
-
-    //     var loanId = document.createElement('p');
-    //     loanId.textContent = 'Loan ID: ' + loan.Name;
-    //     loanDiv.appendChild(loanId);
-
-    //     var loanAmount = document.createElement('p');
-    //     loanAmount.textContent = 'Loan Amount: ' + loan.Amount;
-    //     loanDiv.appendChild(loanAmount);
-
-    //     // Add other loan details as needed
-    //     var loanStatus = document.createElement('p');
-    //     loanStatus.textContent = 'Loan Status: ' + loan.Loan_Status;
-    //     loanDiv.appendChild(loanStatus);
-
-    //     loanHistoryContainer.appendChild(loanDiv);
-    //   });
     var count = 1;
     var creditScore;
     var loanHistoryTableBody = document.getElementById('loanHistoryTableBody');
